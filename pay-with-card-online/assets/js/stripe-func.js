@@ -42,7 +42,7 @@ const requestBody = {
 };
 formValidate()
 
-    const res = await fetch("/create-order", {
+    const res = await fetch("https://pizzabackennd-production.up.railway.app/api/v1/create-order", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

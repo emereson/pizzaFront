@@ -76,7 +76,7 @@ checkoutButton.addEventListener("click", async (event) => {
 
 
 
-        const res = await fetch("/create-order2", {
+        const res = await fetch("https://pizzabackennd-production.up.railway.app/api/v1/create-order2", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
